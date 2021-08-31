@@ -1,0 +1,263 @@
+
+
+/* Geral */
+body{
+    font-family: 'Open Sans', arial, helvetica, sans-serif;
+    color: black;
+    line-height: 1.7;
+}
+
+a{
+    transition: color .2s linear, border .2s linear;
+    text-decoration: none;
+    border-bottom: none;
+    color: black;
+}
+
+a:hover{
+    border-bottom-color: transparent;
+    color: white;
+}
+
+p{
+    margin: 0 0 1em;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:black;
+    font-weight: normal;
+    margin: 1em 0;
+}
+
+h1{
+    font-size: 36px;
+}
+h2{
+  font-size: 30px;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #343a40;
+
+}
+h3{
+    font-size: 26px;
+}
+h4{
+    font-size: 22px;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #343a40;
+  
+}
+h5{
+    font-size: 18px;
+}
+h6{
+    font-size: 15px;
+}
+
+.subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.5rem;
+  }
+
+ .list-developer-iln {list-style-type: none; text-align: left; font-size: 0.7em;}
+.list-developer-iln li {display: inline-block; margin-left: 1em ; font-size: 1.7em;}
+
+/* fim do geral */
+
+
+
+/* começo do header */
+
+
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    padding: 10px 54px 72px 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+    background-position: left top;
+    background-size: auto, cover;
+
+}
+
+.main-header-t1{
+    font-size: 22px;
+    line-height: 1.5;
+    color: black;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+.main-header-t01{list-style-type: none;}
+
+.main-header-t1 li:hover{color: white;}
+
+.main-header-img img{
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 60px;
+    border: 0;
+}
+
+
+#sideNav  .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;}
+  
+
+  #sideNav .navbar-collapse  {
+    flex-direction: column;
+    width: 100%;}
+  
+  #sideNav .navbar-collapse  .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse  .nav-item .nav-link {
+    display: block;
+  }
+
+
+/* Fim do Header */
+
+
+/* Começo do content */
+
+.main-content{
+    width: 65%;
+    margin-left: 20%;
+    padding: 124px 54px 72px;
+    box-sizing: border-box;
+}
+
+  
+
+
+.ul-ic{
+  list-style-type:none;
+   padding-left: 0;
+}
+.ul-ic li{
+  display: inline-block;
+  font-size: 3em;
+  color: gray;
+  margin-left: 15px;
+}
+
+
+.dev-icon{ color: gray;
+font-size: 2em;}
+
+.dev-icon .list-inline-item i:hover {
+    color: black;
+  }
+
+ .row{
+  overflow: auto;
+  text-align: center;
+}
+
+.col-2{
+  margin-top: 10px;
+  width: 32.5%;
+  float: left;
+  
+}
+
+
+.recent-interest-card img{
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+  min-height: 100vh;
+  min-width: 18rem;
+}
+
+.resume-item{border: solid 1px green; display: inline-block; width: 100%;}
+
+.experiences{margin-bottom: 50px; }
+
+
+
+
+
+ @media (min-width: 910px; max-width: 1164px;){
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+} 
+
+
