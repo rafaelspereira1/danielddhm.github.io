@@ -11,85 +11,60 @@
       <link rel="stylesheet" href="./normalize.css">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-      <script src="./JS.js"></script>
+      <script src="bootstrap.js"></script>
  
  
     </head>
 
 
     <body>
-  <header class="main-header " id="sideNav">
+      <header class="main-header " id="sideNav">
+       
+        <button type="button" class="navbar-toggle">
+          <span class="icon-bar">About</span>
+          <span class="icon-bar">Experience</span>
+          <span class="icon-bar">Education</span>
+          <span class="icon-bar">Skills</span>
+          <span class="icon-bar">Interests</span>
+        </button>
 
 
-   <nav class="main-header-t1 navbar navbar-expand-lg" >
-    <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
-        <a href="index.html" class="main-header-img">
-          <img src="./IMG/ME.jpg" alt="ME">
-      </a>
-      <ol class="main-header-t1 main-header-t01" >
-        <li><p>Daniel da Hora Machado</p></li>
-        <li><p>Eletrical Engineer and Developer.</p></li>
-      </ol>
-    </a>
+        <nav class="main-header-t1 navbar navbar-expand-lg" >
+         <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+             <a href="index.html" class="main-header-img">
+               <img src="./IMG/ME.jpg" alt="ME">
+           </a>
+           <ol class="main-header-t1 main-header-t01" >
+             <li><p>Daniel Machado</p></li>
+           </ol>
+         </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav">
+               <li class="nav-item">
+                 <a class="nav-link" href="#about">About</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#experience">Experience</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#education">Education</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#skills">Skills</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#interests">Interests</a>
+               </li>
+     
+             </ul>
+           </div>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#interests">Interests</a>
-          </li>
+         </nav>
+     
+     
+     </header> 
 
-        </ul>
-      </div>
-    </nav>
-
-
-</header> 
-<!--
-<nav class="main-header-t2" >
-  <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
-  <a href="index.html" class="main-header-img">
-    <img src="./IMG/ME.jpg" alt="ME">
-</a>
-<ol class="main-header-t1 main-header-t01" >
-  <li><p>Daniel da Hora Machado</p></li>
-  <li><p>Eletrical Engineer and Developer.</p></li>
-</ol>
-</a>
-
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#about">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#experience">Experience</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#education">Education</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#skills">Skills</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#interests">Interests</a>
-    </li>
-
-  </ul>
-</div>
-  </nav> -->
-
+     
 
 <section class="main-content resume-section" id="about">
     <h2>About Me</h2>
@@ -169,12 +144,6 @@
               <i class="fab fa-js-square"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-react"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-node-js"></i>
-            </li>
-            <li class="list-inline-item">
                 <i class="fab fa-python"></i>
               </li>
             <li class="list-inline-item">
@@ -189,7 +158,7 @@
 
           </ul>
 
-          <ul class="list-developer-iln">
+          <ul class="list-developer-iln" id="list-lang">
             <li class="list-inline-item">
               HTML5 - 
             </li>
@@ -198,12 +167,6 @@
             </li>
             <li class="list-inline-item">
               JS - 
-            </li>
-            <li class="list-inline-item">
-              REACT  - 
-            </li>
-            <li class="list-inline-item">
-              NODE JS  - 
             </li>
             <li class="list-inline-item">
                Phyton - 
